@@ -135,3 +135,20 @@ make test
 ![openlanemain2](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/a2dfe03b-cb5b-4ebb-a7a1-6c9b40947f78)
 
 </details>
+
+### Day 1
+```add r6,r2,r1``` <br>
+This is an R type instruction - instructions using 3 register inputs
+– add, xor, mul —arithmetic/logical operations.
+
+32-bit instruction format of R-format:
+<ul>
+<li>opcode: Partially identifies the operation type (add in this case) (Bit 0 to Bit 6)</li>
+<li>rd: Specifies the destination register where the result will be stored (r6) (Bit 7 to Bit 11)</li>
+<li>funct3: Further encodes the operation (000 for addition) (Bit 12 to Bit 14)</li>
+<li>rs1: Specifies the first source register to be added (r2) (Bit 15 to Bit 19)</li>
+<li>rs2: Specifies the second source register to be add (r1) (Bit 20 to Bit 24)</li>
+<li>funct7: Specifies the exact operation to be executed (Bit 25 to Bit 31)</li>
+</ul>
+
+![rv-32bit](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/2f492828-7592-4467-9083-f02a935318d5)
