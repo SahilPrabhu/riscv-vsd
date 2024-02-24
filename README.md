@@ -137,6 +137,9 @@ make test
 </details>
 
 ### Day 1
+<details>
+<summary>Identifying Instruction Type</summary>
+ 
 ```add r6,r2,r1``` <br>
 This is an R type instruction - instructions using 3 register inputs
 – add, xor, mul —arithmetic/logical operations.
@@ -157,3 +160,35 @@ This is an R type instruction - instructions using 3 register inputs
 funct7 &emsp; &nbsp; x3 &emsp;  &ensp; x2  &emsp;  &ensp;funct3 &emsp; &emsp;x1  &emsp;  &ensp;opcode
 
 ![rv-32bit](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/2f492828-7592-4467-9083-f02a935318d5)
+</details>
+
+## Day 3
+<details>
+<summary>Compiling C code using Risc-V GNU Toolchain</summary>
+	
+```bash
+#include<stdio.h>
+int main() {
+  int sum=0, i=1, n=100;
+  for(i = 1; i <= n; ++i){
+    sum += 1;
+  }
+  printf("Sum of numbers from 1 to %d is %d \n",n,sum);
+  return 0;
+}
+```
+<details>
+<summary>optimization -O1</summary>
+
+```riscv64-unknown-elf-gcc -O1 -mabi=lp64  -o sum.o sum.c```
+ 
+![optimization_1](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/a4c92f40-a159-4448-8662-8e483592cc64)
+</details>
+<details>
+<summary>optimization -Ofast</summary>
+
+```riscv64-unknown-elf-gcc -Ofast -mabi=lp64  -o sum1ton.o sum1ton.c```
+ 
+![optimization_fast](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/69fa4d0d-cbd5-4dc9-a884-4a722516f741)
+</details>
+</details>
