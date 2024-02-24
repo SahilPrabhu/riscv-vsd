@@ -151,4 +151,9 @@ This is an R type instruction - instructions using 3 register inputs
 <li>funct7: Specifies the exact operation to be executed (Bit 25 to Bit 31)</li>
 </ul>
 
+
+```add x1, x2, x3  R-type``` <br>
+0000000 00011 00010  &emsp; 000  &emsp; &nbsp;&ensp; 00001 &emsp; 0110011 <br>
+funct7 &emsp; &nbsp; x3 &emsp;  &ensp; x2  &emsp;  &ensp;funct3 &emsp; &emsp;x1  &emsp;  &ensp;opcode
+
 ![rv-32bit](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/2f492828-7592-4467-9083-f02a935318d5)
