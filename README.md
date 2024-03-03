@@ -219,28 +219,20 @@ The C code should give the same output when compiled using GCC X86 Compiler (F1)
 <br>
 Instruction to be run -
 
- ```bash
-Instruction 1:add r6,r2,r1
-```
+ ```Instruction 1:add r6,r2,r1```
 <br>
 <strong>Verilog Design Code</strong>
 
-```bash
-iiitb_rv32i.v
-```
+```iiitb_rv32i.v```
 <br>
 <strong>Verilog Testbench</strong>
 
-```bash
-iiitb_rv32i_tb.v
-```
+```iiitb_rv32i_tb.v```
 <br>
 
 ![Screenshot from 2024-03-03 17-42-41](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/1411c325-b5fb-4a11-89b3-3911185fb554)
 
-```
-GTK Waveform Simulations
-```
+```GTK Waveform Simulations```
 
 ![Screenshot from 2024-03-03 22-42-07](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/0d28eadb-775d-4bb5-a37a-57d0181fbf64)
 
