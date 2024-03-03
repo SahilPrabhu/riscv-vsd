@@ -139,7 +139,10 @@ make test
 ### Day 1
 <details>
 <summary>Identifying Instruction Type</summary>
- 
+<br>
+<strong>In RISC-V, the base instruction format is a 32-bit instruction word divided into several fields. The basic format consists of opcode, rd (destination register), funct3 (function 3), rs1 (source register 1), imm (immediate value), and funct7 (function 7). This design allows for a wide range of instructions while maintaining simplicity and flexibility, which are key principles of the RISC-V architecture.</strong>
+ <br>
+	
 ```add r6,r2,r1``` <br>
 This is an R type instruction - instructions using 3 register inputs
 – add, xor, mul —arithmetic/logical operations.
@@ -191,4 +194,15 @@ int main() {
  
 ![optimization_fast](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/69fa4d0d-cbd5-4dc9-a884-4a722516f741)
 </details>
+</details>
+
+## Day 3
+<details>
+<summary>Checking if output of GCC and RISC-V GCC is same </summary>
+The C code should give the same output when compiled using GCC X86 Compiler (F1) and riscv compiler (F2) (SPIKE Simulation)
+	
+![Screenshot from 2024-03-03 15-37-56](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/6a2b1dba-737a-4ffe-aaf9-7f435e967ad3)
+
+![Screenshot from 2024-03-03 15-41-06](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/e94d3438-c6f4-4c08-ba6a-bfbb9fe714ea)
+
 </details>
