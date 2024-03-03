@@ -139,13 +139,13 @@ make test
 ### Day 1
 <details>
 <summary>Identifying Instruction Type</summary>
-<br>
+<br><br>
 <strong>In RISC-V, the base instruction format is a 32-bit instruction word divided into several fields. The basic format consists of opcode, rd (destination register), funct3 (function 3), rs1 (source register 1), imm (immediate value), and funct7 (function 7). This design allows for a wide range of instructions while maintaining simplicity and flexibility, which are key principles of the RISC-V architecture.</strong>
 	
-<br>
-
+<br><br>
  
-```add r6,r2,r1``` <br>
+```add r6,r2,r1``` 
+<br><br>
 This is an R type instruction - instructions using 3 register inputs
 – add, xor, mul —arithmetic/logical operations.
 
@@ -167,7 +167,7 @@ funct7 &emsp; &nbsp; x3 &emsp;  &ensp; x2  &emsp;  &ensp;funct3 &emsp; &emsp;x1 
 ![rv-32bit](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/2f492828-7592-4467-9083-f02a935318d5)
 </details>
 
-## Day 3
+## Day 2
 <details>
 <summary>Compiling C code using Risc-V GNU Toolchain</summary>
 	
@@ -201,10 +201,41 @@ int main() {
 ## Day 3
 <details>
 <summary>Checking if output of GCC and RISC-V GCC is same </summary>
+<br>
 The C code should give the same output when compiled using GCC X86 Compiler (F1) and riscv compiler (F2) (SPIKE Simulation)
+
+<br> <br>
+
 	
 ![Screenshot from 2024-03-03 15-37-56](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/6a2b1dba-737a-4ffe-aaf9-7f435e967ad3)
 
 ![Screenshot from 2024-03-03 15-41-06](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/e94d3438-c6f4-4c08-ba6a-bfbb9fe714ea)
+
+</details>
+
+## Day 4
+<details>
+<summary>Running Verilog code and Testbench using IVerilog and simulating waveforms</summary>
+<br>
+<strong>Verilog Design Code</strong>
+
+```bash
+iiitb_rv32i.v
+```
+<br>
+<strong>Verilog Testbench</strong>
+
+```bash
+iiitb_rv32i_tb.v
+```
+<br>
+
+![Screenshot from 2024-03-03 17-42-41](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/1411c325-b5fb-4a11-89b3-3911185fb554)
+
+```
+GTK Waveform Simulations
+```
+
+![Screenshot from 2024-03-03 17-36-07](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/91eeb225-3f9d-4ed0-ae84-f94cbcd4552f)
 
 </details>
