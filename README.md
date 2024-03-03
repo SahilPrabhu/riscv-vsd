@@ -217,6 +217,12 @@ The C code should give the same output when compiled using GCC X86 Compiler (F1)
 <details>
 <summary>Running Verilog code and Testbench using IVerilog and simulating waveforms</summary>
 <br>
+Instruction to be run -
+
+ ```bash
+Instruction 1:add r6,r2,r1
+```
+<br>
 <strong>Verilog Design Code</strong>
 
 ```bash
@@ -236,6 +242,6 @@ iiitb_rv32i_tb.v
 GTK Waveform Simulations
 ```
 
-![Screenshot from 2024-03-03 17-36-07](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/91eeb225-3f9d-4ed0-ae84-f94cbcd4552f)
+![Screenshot from 2024-03-03 22-42-07](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/0d28eadb-775d-4bb5-a37a-57d0181fbf64)
 
 </details>
