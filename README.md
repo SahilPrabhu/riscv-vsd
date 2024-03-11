@@ -170,7 +170,8 @@ funct7 &emsp; &nbsp; x3 &emsp;  &ensp; x2  &emsp;  &ensp;funct3 &emsp; &emsp;x1 
 ## Day 2
 <details>
 <summary>Compiling C code using Risc-V GNU Toolchain</summary>
-	
+<br>
+ 
 ```bash
 #include<stdio.h>
 int main() {
@@ -217,6 +218,10 @@ The C code should give the same output when compiled using GCC X86 Compiler (F1)
 <details>
 <summary>Running Verilog code and Testbench using IVerilog and simulating waveforms</summary>
 <br>
+	
+![riscv_block](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/d53109b1-78a7-444d-ae39-54f62622ac9c)	
+<br>
+ 
 Instruction to be run -
 
  ```Instruction 1:add r6,r2,r1```
@@ -235,5 +240,21 @@ Instruction to be run -
 ```GTK Waveform Simulations```
 
 ![Screenshot from 2024-03-03 22-42-07](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/0d28eadb-775d-4bb5-a37a-57d0181fbf64)
+
+</details>
+
+## Day 5
+<details>
+<summary>Gate Level Simulation</summary>
+<br>
+GLS is generating the simulation output by running test bench with netlist file generated from synthesis as design under test. Netlist is logically same as RTL code, therefore, same test bench can be used for it.We perform this to verify logical correctness of the design after synthesizing it. Also ensuring the timing of the design is met. Folllowing are the commands to run the GLS simulation: <br>
+<br>
+	
+![Screenshot from 2024-03-11 20-26-39](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/d25ab142-02a2-425e-b834-b10f2248ad4b)
+
+The output waveform of the synthesized netlist given below:
+<br>
+
+![Screenshot from 2024-03-11 20-32-11](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/fb219d2e-7af0-4b5e-bb56-b93ccdb7b841)
 
 </details>
