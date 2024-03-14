@@ -239,7 +239,12 @@ Instruction to be run -
 
 ```GTK Waveform Simulations```
 
-![Screenshot from 2024-03-03 22-42-07](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/0d28eadb-775d-4bb5-a37a-57d0181fbf64)
+![Screenshot from 2024-03-14 18-56-10](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/c1539155-fca2-4d48-82c2-7312e997ecda)
+
+<br>
+
+![Screenshot from 2024-03-14 18-58-30](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/b059575f-a002-4359-99b2-72b58028929e)
+
 
 </details>
 
@@ -255,6 +260,7 @@ GLS is generating the simulation output by running test bench with netlist file 
 The output waveform of the synthesized netlist given below:
 <br>
 
-![Screenshot from 2024-03-11 20-32-11](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/fb219d2e-7af0-4b5e-bb56-b93ccdb7b841)
+![Screenshot from 2024-03-14 18-42-17](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/1e8e98a3-e84f-410c-90c7-eaee13e78b23)
 
+<strong> As we can see 1+2 is giving us output 3. This shows succesful add operation. </strong>
 </details>
