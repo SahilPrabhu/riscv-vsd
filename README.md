@@ -239,14 +239,14 @@ Instruction to be run -
 
 ```GTK Waveform Simulations```
 
-![Screenshot from 2024-03-14 18-56-10](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/c1539155-fca2-4d48-82c2-7312e997ecda)
+![Screenshot from 2024-03-14 21-57-08](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/d1779245-3ab6-491e-88f7-0ddf5b7e5285)
 
 <br>
 
-![Screenshot from 2024-03-14 19-24-36](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/2334e65f-9866-4c39-8afd-a33153d32983)
+![Screenshot from 2024-03-14 22-00-05](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/eb5e1b2b-a6a7-40aa-b81a-4c438fbc964c)
 
 <br>
-<strong>Where ID_EX_A and ID_EX_B are the Oprands, EX_MEM_ALUOUT is the output and EX_MEM_IR is the ADD OPCode/Instruction Code</strong>
+<strong>Where ID_EX_A and ID_EX_B are the Oprands,ADD=0 is operation, EX_MEM_ALUOUT is the output and EX_MEM_IR is the ADD OPCode/Instruction Code</strong>
 </details>
 
 ## Day 5
@@ -263,5 +263,5 @@ The output waveform of the synthesized netlist given below:
 
 ![Screenshot from 2024-03-14 18-42-17](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/1e8e98a3-e84f-410c-90c7-eaee13e78b23)
 
-<strong> As we can see 1+2 is giving us output 3. This shows succesful add operation. </strong>
+<strong> As we can see GLS is matching RTL Waveforms. </strong>
 </details>
