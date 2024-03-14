@@ -243,9 +243,10 @@ Instruction to be run -
 
 <br>
 
-![Screenshot from 2024-03-14 18-58-30](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/b059575f-a002-4359-99b2-72b58028929e)
+![Screenshot from 2024-03-14 19-24-36](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/2334e65f-9866-4c39-8afd-a33153d32983)
 
-
+<br>
+<strong>Where ID_EX_A and ID_EX_B are the Oprands, EX_MEM_ALUOUT is the output and EX_MEM_IR is the ADD OPCode/Instruction Code</strong>
 </details>
 
 ## Day 5
