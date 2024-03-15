@@ -267,5 +267,7 @@ The output waveform of the synthesized netlist given below:
 
 ![Screenshot from 2024-03-14 18-42-17](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/1e8e98a3-e84f-410c-90c7-eaee13e78b23)
 
+![gtk](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/681cc6e3-e39a-44d7-8b10-860a10e4f544)
+
 <strong> As we can see GLS is matching RTL Waveforms. </strong>
 </details>
