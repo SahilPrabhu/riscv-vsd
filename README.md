@@ -239,6 +239,10 @@ Instruction to be run -
 
 ```GTK Waveform Simulations```
 
+![Screenshot from 2024-03-15 15-21-10](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/9a03f228-f43d-4d1d-9489-aaceab80863a)
+
+<br>
+
 ![Screenshot from 2024-03-14 21-57-08](https://github.com/SahilPrabhu/riscv-vsd/assets/92974277/d1779245-3ab6-491e-88f7-0ddf5b7e5285)
 
 <br>
